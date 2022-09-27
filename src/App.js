@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import HomeScreen from "./screens/HomeScreen";
 const App = () => {
@@ -5,6 +6,7 @@ const App = () => {
     <>
       <NavBar />
       <HomeScreen />
+      <Footer />
     </>
   );
 };
