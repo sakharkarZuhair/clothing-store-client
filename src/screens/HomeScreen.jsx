@@ -31,6 +31,118 @@ const HomeScreen = () => {
             <button className="bg-blue-200 font-semibold">Shop Now</button>
           </div>
         </div>
+        <div className="homeScreenCollectionSection">
+          <div className="homeScreenCollectionCardContainer">
+            <div className="homeScreenCollectionCard">
+              <div className="homeScreenCollectionCardDesc">
+                <h5>Women</h5>
+                <p>Winter 2022</p>
+              </div>
+              <div className="homeScreenCollectionCardImage">
+                <img src="./womenCollection.jpg" alt="" />
+              </div>
+            </div>
+            <div className="homeScreenCollectionCard">
+              <div className="homeScreenCollectionCardDesc">
+                <h5>Men</h5>
+                <p className="">Winter 2022</p>
+              </div>
+              <div className="homeScreenCollectionCardImage">
+                <img src="./menCollection.jpg" alt="" />
+              </div>
+            </div>
+            <div className="homeScreenCollectionCard">
+              <div className="homeScreenCollectionCardDesc">
+                <h5>Watches</h5>
+                <p>New Collection</p>
+              </div>
+              <div className="homeScreenCollectionCardImage">
+                <img src="./watch.jpg" alt="" />
+              </div>
+            </div>
+            <div className="homeScreenCollectionCard">
+              <div className="homeScreenCollectionCardDesc">
+                <h5>Bags</h5>
+                <p>Trending</p>
+              </div>
+              <div className="homeScreenCollectionCardImage">
+                <img src="./bags.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <h6 className="text-center text-4xl font-bold">Our Blogs</h6>
+        <div className="homeScreenOurBlogContainer">
+          <div className="homeScreenBlogContainerInnerContainer">
+            <div className="homeScreenOurBlog">
+              <div className="homeScreenBlogImage">
+                <img src="./blogOne.jpg" alt="" />
+              </div>
+              <div>
+                <p className="text-gray-500 mt-4">
+                  By <span className="font-semibold text-black">Zuhair</span> on{" "}
+                  <span className="font-semibold text-black">
+                    July 25, 2022{" "}
+                  </span>
+                </p>
+                <h6 className="font-bold mt-3">
+                  8 Inspiring Ways to Wear Dresses in Winter
+                </h6>
+                <h4 className="text-gray-500 mt-3">
+                  Duis ut velit gravida nibh bibendum commodo. Suspendisse
+                  pellentesque mattis augue id euismod. Interdum et male-suada
+                  fames
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div className="homeScreenBlogContainerInnerContainer">
+            <div className="homeScreenOurBlog">
+              <div className="homeScreenBlogImage">
+                <img src="./blogOne.jpg" alt="" />
+              </div>
+              <div>
+                <p className="text-gray-500 mt-4">
+                  By <span className="font-semibold text-black">Zuhair</span> on{" "}
+                  <span className="font-semibold text-black">
+                    July 25, 2022{" "}
+                  </span>
+                </p>
+                <h6 className="font-bold mt-3">
+                  8 Inspiring Ways to Wear Dresses in Winter
+                </h6>
+                <h4 className="text-gray-500 mt-3">
+                  Duis ut velit gravida nibh bibendum commodo. Suspendisse
+                  pellentesque mattis augue id euismod. Interdum et male-suada
+                  fames
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div className="homeScreenBlogContainerInnerContainer">
+            <div className="homeScreenOurBlog">
+              <div className="homeScreenBlogImage">
+                <img src="./blogOne.jpg" alt="" />
+              </div>
+              <div>
+                <p className="text-gray-500 mt-4">
+                  By <span className="font-semibold text-black">Zuhair</span> on{" "}
+                  <span className="font-semibold text-black">
+                    July 25, 2022{" "}
+                  </span>
+                </p>
+                <h6 className="font-bold mt-3">
+                  8 Inspiring Ways to Wear Dresses in Winter
+                </h6>
+                <h4 className="text-gray-500 mt-3">
+                  Duis ut velit gravida nibh bibendum commodo. Suspendisse
+                  pellentesque mattis augue id euismod. Interdum et male-suada
+                  fames
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
