@@ -1,6 +1,7 @@
 import "../styles/NavBar.css";
 import React from "react";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -18,10 +19,17 @@ const NavBar = () => {
                 <AiOutlineShoppingCart size={26} />
               </li>
               <li className="cursor-pointer">Home</li>
-              <li className="cursor-pointer">Shop</li>
+              <Link to="/products">
+                <li className="cursor-pointer">Shop</li>
+              </Link>
               <li className="cursor-pointer">Blog</li>
               <li className="cursor-pointer">About</li>
               <li className="cursor-pointer">Contact</li>
+              <Link to="/login">
+                <li className="cursor-pointer bg-black text-white px-3 py-1 rounded transition-all hover:-translate-y-1">
+                  Log-In
+                </li>
+              </Link>
             </ul>
           </div>
         </div>

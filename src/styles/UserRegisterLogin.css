@@ -1,0 +1,61 @@
+.userRegisterBigContainer {
+  display: flex;
+  justify-content: center;
+  /* width: 80%; */
+  height: 70vh;
+}
+
+.userRegisterContainer {
+  /* display: flex; */
+  width: 30%;
+}
+
+.userRegisterFormTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* $primary: #11998e;
+$secondary: #38ef7d;
+$white: #fff;
+$gray: #9b9b9b; */
+
+.userRegisterName {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.userRegisterFirstName {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.userRegisterSecondName {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.userRegisterEmailAddress {
+  display: flex;
+  /* width: 100%; */
+}
+
+.userRegisterEmail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.userRegisterPassword {
+  display: flex;
+  /* width: 100%; */
+}
+
+.userRegisterPass {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

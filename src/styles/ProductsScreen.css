@@ -1,0 +1,78 @@
+.productsScreenBigContainer {
+  display: flex;
+  justify-content: center;
+  /* width: 80%; */
+}
+
+.productsScreenConatiner {
+  width: 75%;
+}
+
+.productsScreenTopContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.productsScreenSearchBar {
+  display: flex;
+  border: 1px solid rgb(187, 187, 187);
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+}
+
+.productsScreenCards {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  width: 100%;
+  gap: 4vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.productsScreenCard {
+  /* border: 1px solid black; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  width: 90%;
+}
+
+.productsScreenImage {
+  /* width: 30vh; */
+  /* height: 100%; */
+  transition: transform 0.2s;
+}
+
+.productsScreenImage:hover {
+  transform: scale(101%);
+}
+
+.productsScreenImage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.productsScreenDesc {
+  margin-top: 10px;
+}
+
+.productsScreenDesc > h3 {
+  color: rgb(82, 82, 82);
+}
+
+.productsScreenSearchBar {
+  transition: 0.5s;
+}
+
+.productsScreenSearchBar:hover {
+  background-color: rgb(187, 199, 241);
+}
+
+.productsSearchBarInput {
+  /* margin-bottom: 10vh; */
+  border: 1px solid black;
+  /* transition: transform 0.2s; */
+}
