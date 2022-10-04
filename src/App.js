@@ -3,8 +3,10 @@ import NavBar from "./components/NavBar";
 import HomeScreen from "./screens/HomeScreen";
 import ProductsScreen from "./screens/ProductsScreen";
 import Product from "./screens/Product";
+import LoginScreen from "./screens/LoginScreen";
+import RegisterScreen from "./screens/RegisterScreen";
 import { Routes, Route } from "react-router-dom";
-import UserLoginRegisterScreen from "./screens/UserLoginRegisterScreen";
+
 const App = () => {
   return (
     <>
@@ -13,7 +15,8 @@ const App = () => {
         <Route path="/" element={<HomeScreen />} />
         <Route path="/products" element={<ProductsScreen />} />
         <Route path="/product/:id" element={<Product />} />
-        <Route path="/login" element={<UserLoginRegisterScreen />} />
+        <Route path="/login" element={<LoginScreen />} />
+        <Route path="/signup" element={<RegisterScreen />} />
       </Routes>
 
       <Footer />
